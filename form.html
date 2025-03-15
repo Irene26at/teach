@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Sample Form</h3>
+    <form>
+        <label for="username">username</label>
+        <input type="text" id="username" placeholder="Enter name" required><br><br>
+
+        <label for="password">password</label>
+        <input type="password" id="password" placeholder="password" minlength="3" maxlength="7" required><br><br>
+
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="name@gmail.com" required><br><br>
+
+        <label for="phnumber">Phonenumber</label>
+        <input type="tel" id="phnumber" placeholder="Enter number" required><br><br>
+
+        <label for="bday">birthday</label>
+        <input type="date" id="bday" placeholder="Enter date" required><br><br>
+
+        <label for="age">age</label>
+        <input type="number" id="age" placeholder="Enter age" required><br><br>
+
+        <label>Gender:</label>
+
+        <label for="male">male</label>
+        <input type="radio" id="male" value="male" title="Gender:">
+
+        <label for="female">female</label>
+        <input type="radio" id="female" value="female" title="Gender:">
+
+        <label for="others">Others</label>
+        <input type="radio" id="Others" value="Others" title="Gender:"><br><br>
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="phonepay">Phonepay</option>
+            <option value="gpay">GooglePay</option>
+        </select><br><br>
+
+        <label>Roles:</label>
+
+        <label for="Student">Student</label>
+        <input type="checkbox" id="Student">
+
+        <label for="Employee">Employee</label>
+        <input type="checkbox" id="Employee">
+
+        <label for="Others">Others</label>
+        <input type="checkbox" id="Others"><br><br>
+
+        <label for="Comment">Comment:</label>
+        <textarea id="Comment" rows="3" cols="10"></textarea><br><br>
+
+        <label for="File">File:</label>
+        <input type="file" id="File"><br><br>
+
+        <input type="reset"><br><br>
+        <input type="submit">
+
+    </form>
+
+    <br><br>
+    <hr>
+    <BR>
+
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname"><br><br>
+
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname"><br><br>
+
+        <p>Interested languages</p>
+
+        
+        <input type="radio" id="html">
+        <label for="html">Html</label><br>
+
+        <input type="radio" id="css">
+        <label for="css">css</label><br>
+
+
+        <input type="radio" id="javascript">
+        <label for="javascript">js</label><br>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>
